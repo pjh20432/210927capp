@@ -3,15 +3,35 @@
 void PrintInt(int n)
 {
 	for (int i = 0; i < n; i++)
-		printf("Hello : %d\n", i);
+		printf("Hello : %d", i);
+	printf("\n");
 }
 
 
 
 int main()
 {
-	PrintfInt(100;);
+	PrintInt(100);
+	PrintInt(100);
+	PrintInt(100);
 }
+
+
+
+//#include<stdio.h>
+//
+//void PrintInt(int n)
+//{
+//	for (int i = 0; i < n; i++)
+//		printf("Hello : %d\n", i);
+//}
+//
+//
+//
+//int main()
+//{
+//	PrintInt(100);
+//}
 
 
 //#include<stdio.h>
